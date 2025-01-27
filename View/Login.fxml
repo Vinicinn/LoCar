@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" stylesheets="@Stylesheets/Login.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="locar.View.Controller.LoginController">
+   <children>
+      <Pane id="Pane" layoutX="99.0" layoutY="24.0" prefHeight="350.0" prefWidth="400.0">
+         <children>
+            <TextField id="Field" fx:id="txtUsuario" layoutX="126.0" layoutY="97.0" prefHeight="25.0" prefWidth="150.0" />
+            <PasswordField id="Field" fx:id="txtSenha" layoutX="126.0" layoutY="164.0" prefWidth="150.0" />
+            <Button id="Button" defaultButton="true" layoutX="151.0" layoutY="216.0" mnemonicParsing="false" onAction="#fazerLogin" prefWidth="100.0" text="Entrar" />
+            <Button id="Button" layoutX="151.0" layoutY="250.0" mnemonicParsing="false" onAction="#fazerCadastro" prefWidth="100.0" text="Cadastrar" />
+            <Text id="Text" fill="#523961" layoutX="126.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CPF:" wrappingWidth="50.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text id="Text" fill="#523961" layoutX="126.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Senha:" wrappingWidth="50.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="cpfError" fill="RED" layoutX="76.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="250.0" />
+            <Text fx:id="senhaError" fill="RED" layoutX="76.0" layoutY="209.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="250.0" />
+            <Text id="Logo" layoutX="145.0" layoutY="50.0" smooth="false" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="LoCar">
+               <font>
+                  <Font name="Calibri Italic" size="48.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

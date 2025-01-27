@@ -1,0 +1,18 @@
+#AnchorPane {
+    -fx-background-color: #3b234a;
+}
+#Pane{
+    -fx-background-color: #baafc4;
+    -fx-background-radius: 30;
+}
+#Field {
+    -fx-background-radius: 10;
+}
+#Button{
+    -fx-background-color: #3b234a;
+    -fx-background-radius: 10;
+    -fx-text-fill: #ffffff;
+}
+#Text {
+    -fx-fill: #3b234a;
+}

@@ -1,0 +1,36 @@
+#AnchorPane {
+    -fx-background-color: #3b234a;
+}
+#Button{
+    -fx-background-color: #baafc4;
+    -fx-background-radius: 10;
+    -fx-border-color: black;
+    -fx-border-radius: 10;
+    -fx-border-width: 1;
+}
+#TextWelcome {
+    -fx-background-color: #ffffff;
+    -fx-font-size: 16;
+}
+#Text {
+    -fx-fill: #3b234a;
+    -fx-font-size: 18;
+}
+#TabPane{
+    -fx-background-color: #baafc4;
+}
+#Tab {
+    -fx-background-color: #baafc4;
+    -fx-fill: #ffffff;
+}
+#ItemText {
+    -fx-fill: #3b234a;
+    -fx-font-size: 14;
+    -fx-alignment: center;
+}
+#ItemLista {
+    -fx-background-color: #d4c7bf;
+    -fx-alignment: center;
+    -fx-border-color: #3b234a;
+    -fx-pref-height: 50px;
+}
